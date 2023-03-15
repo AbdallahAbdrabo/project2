@@ -452,8 +452,20 @@ span{
     .nav-list.open{
         top: 100%;
     }
+     .navbar {
+        position: relative;
+    }
+    .navbar h1{
+        position: absolute;
+        margin-left: -70%;
+    }
+    .fa-solid{
+        position: absolute;
+        margin-right: -85%;
+    }
 
 } 
+
 
 
 
