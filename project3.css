@@ -4,13 +4,15 @@
 }
 .navbar  {
     display: flex;
-    justify-content: center;;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 0px 15%;
+    padding: 0px 0%;
     position: fixed;
     top: 0px;
-     height: 60px;
+    height: 60px;
+  
+  
 
 }
   .navbar  ul {
@@ -60,6 +62,7 @@ li  {
     display: none !important;
     color: white;
     font-size: 35px; 
+   
 }
 
 
@@ -67,6 +70,7 @@ li  {
     color: rgb(208, 124, 22);
     margin-left: 30px;
     font-size: 50px;
+  
 }
 
 .identify , .identify2{ 
@@ -90,7 +94,7 @@ li  {
 }
 .identify img {
     width: 50%;
-    height: 500px;
+   
 }
 .free{
     font-size: 30px;
@@ -269,7 +273,7 @@ span{
 
 }
 .TEXT{
-    max-width: 200px;
+    max-width: 500px;
 }
  
 .designer{
@@ -337,7 +341,7 @@ span{
 }
 .TEXT{
     text-align-last: center;
-  width: 700px;
+    width: 700px;
     color:  rgba(177, 177, 174, 0.952);
     font-size: 20px;
 }
@@ -371,6 +375,24 @@ span{
     font-size: 40px;
     color: rgb(152, 151, 150);
     transition: .8s;
+}
+
+@media(max-width:1062px ) {
+   
+     .min_nav li a {
+        font-size: 20px;
+        
+       padding: 20px;
+
+    }
+
+
+}
+@media (max-width:571px){
+    .TEXT{
+        max-width: 200px;
+        min-width: 100px;
+    }
 }
 @media (max-width :768px){
     
@@ -406,10 +428,7 @@ span{
         display: flex;
         flex-wrap: wrap;
     }
-    .content{
-    flex-direction: row;
-
-    }
+  
     .content2{
         display: flex;
         flex-direction: column;
@@ -420,11 +439,14 @@ span{
 
     .grid_photo{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+
     }
     .min_nav{
         flex-direction: row;
         flex-wrap: wrap;  
+        
     }
     .min_nav li {
         padding: 5;
@@ -452,7 +474,7 @@ span{
     .nav-list.open{
         top: 100%;
     }
-     .navbar {
+    .navbar {
         position: relative;
     }
     .navbar h1{
@@ -463,14 +485,13 @@ span{
         position: absolute;
         margin-right: -85%;
     }
+    .f{
+        width: 250px;
+    }
+    
+    
+    .view{
+        width: 200px;
+    }
 
 } 
-
-
-
-
-
-
-
-
-
